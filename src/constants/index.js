@@ -180,7 +180,7 @@ export const myProjects = [
       'Architected with React (Vite), Tailwind CSS, GSAP, Framer Motion, and WebGL (ShaderGradient) to deliver buttery-smooth animations and a high-performance, engaging user experience.',
     href: 'https://cognitia.nitm.ac.in',
     texture: '/textures/project/project1.mov',
-    logo: '/cognitia_logoc.jpg',
+    logo: '/assets/logo.webp',
     logoStyle: {
       backgroundColor: '#050505',
       border: '0.2px solid rgba(0, 255, 136, 0.3)',
@@ -220,7 +220,7 @@ export const myProjects = [
   href: 'https://bookworm-frontend-kappa.vercel.app/', 
 
   texture: '/textures/project/project2.mp4',
-  logo: '/assets/project-logo2.png',
+  logo: '/assets/logo-with-title-black.png',
 
   logoStyle: {
     backgroundColor: '#4DB33D',
