@@ -223,12 +223,11 @@ export const myProjects = [
     logo: '/assets/logo-with-title-black.png',
 
     logoStyle: {
-      backgroundColor: '#0f2027',
-      background:
-        'linear-gradient(0deg, rgba(77,179,61,0.25), rgba(77,179,61,0.25)), linear-gradient(135deg, #0f2027, #203a43, #2c5364)',
-      boxShadow: '0px 0px 80px rgba(77, 179, 61, 0.5)',
-      border: '0.2px solid rgba(208, 213, 221, 1)',
-    },
+  backgroundColor: '#ffffff',
+  background: 'linear-gradient(135deg, #ffffff, #f3f4f6)',
+  border: '1px solid rgba(0,0,0,0.1)',
+  boxShadow: '0px 0px 40px rgba(255, 255, 255, 0.3)',
+},
 
     spotlight: '/assets/spotlight2.png',
 
@@ -236,12 +235,12 @@ export const myProjects = [
       {
         id: 1,
         name: 'MongoDB',
-        path: '/assets/mongo.png',
+        path: '/assets/mongo.svg',
       },
       {
         id: 2,
         name: 'Express.js',
-        path: '/assets/express.png',
+        path: '/assets/express.svg',
       },
       {
         id: 3,
