@@ -240,7 +240,7 @@ export const myProjects = [
       {
         id: 2,
         name: 'Express.js',
-        path: '/assets/express.svg',
+        path: '/assets/express.png',
       },
       {
         id: 3,
