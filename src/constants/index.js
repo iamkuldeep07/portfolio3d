@@ -211,50 +211,50 @@ export const myProjects = [
     ],
   },
   {
-  title: 'Bookworm - Library Management System',
-  desc: 'A production-grade MERN-based library management system that automates core library workflows including book issuing, user authentication, and borrowing management with real-time tracking and role-based access control.',
+    title: 'Bookworm - Library Management System',
+    desc: 'A production-grade MERN-based library management system that automates core library workflows including book issuing, user authentication, and borrowing management with real-time tracking and role-based access control.',
 
-  subdesc:
-    'Engineered with a scalable backend using Node.js, Express, and MongoDB, featuring JWT-based authentication, OTP email verification, and secure cookie handling. The system integrates Nodemailer for transactional emails, Cloudinary for media storage, and cron jobs for automated due reminders and cleanup of unverified accounts. It also includes fine calculation logic and optimized REST APIs for efficient and reliable operations.',
+    subdesc:
+      'Engineered with a scalable backend using Node.js, Express, and MongoDB, featuring JWT-based authentication, OTP email verification, and secure cookie handling. The system integrates Nodemailer for transactional emails, Cloudinary for media storage, and cron jobs for automated due reminders and cleanup of unverified accounts. It also includes fine calculation logic and optimized REST APIs for efficient and reliable operations.',
 
-  href: 'https://bookworm-frontend-kappa.vercel.app/', 
+    href: 'https://bookworm-frontend-kappa.vercel.app/',
 
-  texture: '/textures/project/project2.mp4',
-  logo: '/assets/logo-with-title-black.png',
+    texture: '/textures/project/project2.mp4',
+    logo: '/assets/logo-with-title-black.png',
 
-  logoStyle: {
-    backgroundColor: '#4DB33D',
-    background:
-      'linear-gradient(0deg, #4DB33D50, #4DB33D50), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-    border: '0.2px solid rgba(208, 213, 221, 1)',
-    boxShadow: '0px 0px 60px 0px rgba(77, 179, 61, 0.3)',
+    logoStyle: {
+      backgroundColor: '#0f2027',
+      background:
+        'linear-gradient(0deg, rgba(77,179,61,0.25), rgba(77,179,61,0.25)), linear-gradient(135deg, #0f2027, #203a43, #2c5364)',
+      boxShadow: '0px 0px 80px rgba(77, 179, 61, 0.5)',
+      border: '0.2px solid rgba(208, 213, 221, 1)',
+    },
+
+    spotlight: '/assets/spotlight2.png',
+
+    tags: [
+      {
+        id: 1,
+        name: 'MongoDB',
+        path: '/assets/mongo.png',
+      },
+      {
+        id: 2,
+        name: 'Express.js',
+        path: '/assets/express.png',
+      },
+      {
+        id: 3,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 4,
+        name: 'Node.js',
+        path: '/assets/node.png',
+      },
+    ],
   },
-
-  spotlight: '/assets/spotlight2.png',
-
-  tags: [
-    {
-      id: 1,
-      name: 'MongoDB',
-      path: '/assets/mongo.png',
-    },
-    {
-      id: 2,
-      name: 'Express.js',
-      path: '/assets/express.png',
-    },
-    {
-      id: 3,
-      name: 'React.js',
-      path: '/assets/react.svg',
-    },
-    {
-      id: 4,
-      name: 'Node.js',
-      path: '/assets/node.png',
-    },
-  ],
-},
   {
     title: 'CarePulse - Health Management System',
     desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
