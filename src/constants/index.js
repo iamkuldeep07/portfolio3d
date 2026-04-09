@@ -174,19 +174,19 @@ const navLinks = [
   
   export const myProjects = [
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      title: 'Cognitia - NITM Tech Fest',
+      desc: 'The official flagship Tech & Cultural Fest website for NIT Meghalaya. It offers an immersive, cyberpunk-themed digital experience featuring dynamic event discovery, interactive 3D backgrounds, and a seamless merchandise storefront.',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-      texture: '/textures/project/project1.mp4',
-      logo: '/assets/project-logo1.png',
+        'Architected with React (Vite), Tailwind CSS, GSAP, Framer Motion, and WebGL (ShaderGradient) to deliver buttery-smooth animations and a high-performance, engaging user experience.',
+      href: 'https://cognitia.nitm.ac.in',
+      texture: '/textures/project/project1.mov', 
+      logo: '/cognitia_logoc.jpg',
       logoStyle: {
-        backgroundColor: '#2A1816',
-        border: '0.2px solid #36201D',
-        boxShadow: '0px 0px 60px 0px #AA3C304D',
+        backgroundColor: '#050505',
+        border: '0.2px solid rgba(0, 255, 136, 0.3)',
+        boxShadow: '0px 0px 60px 0px rgba(0, 255, 136, 0.25)',
       },
-      spotlight: '/assets/spotlight1.png',
+      spotlight: '/assets/spotlight1.png', // Swapped to spotlight3 for a green/blue glow!
       tags: [
         {
           id: 1,
@@ -200,8 +200,8 @@ const navLinks = [
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
+          name: 'GSAP',
+          path: '/assets/gsap.svg', 
         },
         {
           id: 4,
