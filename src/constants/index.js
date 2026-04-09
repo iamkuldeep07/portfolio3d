@@ -219,7 +219,7 @@ export const myProjects = [
 
     href: 'https://bookworm-frontend-kappa.vercel.app/',
 
-    texture: '/textures/project/project2.mp4',
+    texture: '/textures/project/project2.mov',
     logo: '/assets/logo-with-title-black.png',
 
     logoStyle: {
